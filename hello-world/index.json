@@ -7,11 +7,11 @@
     "steps": [{
       "title": "Step 1 - Run Command",
       "text": "step1.md",
-      "code": "test.sh"
+      "code": "start.sh"
     }],
     "intro": {
       "text": "intro.md",
-      "credits": ""
+      "code": "host.sh"
     },
     "finish": {
       "text": "finish.md"
