@@ -6,11 +6,11 @@
   "details": {
     "steps": [{
       "title": "Step 1 - Run Command",
-      "text": "step1.md",
-      "code": "start.sh"
+      "text": "step1.md"
     }],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "code": "start.sh"
     },
     "finish": {
       "text": "finish.md"
