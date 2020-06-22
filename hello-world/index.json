@@ -10,8 +10,7 @@
       "code": "start.sh"
     }],
     "intro": {
-      "text": "intro.md",
-      "code": "host.sh"
+      "text": "intro.md"
     },
     "finish": {
       "text": "finish.md"
