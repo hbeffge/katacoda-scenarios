@@ -8,6 +8,12 @@
       "title": "Step 1 - Run Command",
       "text": "step1.md"
     }],
+    "assets": {
+      "host01": [
+          {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
+          {"file": "deploy.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+      ]
+    }
     "intro": {
       "text": "intro.md",
       "code": "start.sh"
@@ -16,6 +22,7 @@
       "text": "finish.md"
     }
   },
+  
   "environment": {
     "uilayout": "terminal",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
