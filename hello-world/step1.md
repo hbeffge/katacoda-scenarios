@@ -1,3 +1,5 @@
+`kubectl apply -f cloudprov.yaml`{{execute}}
+
 `export MY_IP=[[HOST_IP]]`{{execute}}
 
 
