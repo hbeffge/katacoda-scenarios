@@ -10,7 +10,7 @@
     }],
     "assets": {
       "host01": [
-          {"file": "cloudprov.yaml	", "target": "/root/", "chmod": "+x"}
+          {"file": "cloudprov.yaml", "target": "/root/", "chmod": "+x"}
       ]
     },
     "intro": {
