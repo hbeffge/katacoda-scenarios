@@ -12,7 +12,7 @@
       "host01": [
           {"file": "cloudprov.yaml	", "target": "/root/", "chmod": "+x"}
       ]
-    }
+    },
     "intro": {
       "text": "intro.md",
       "code": "start.sh"
