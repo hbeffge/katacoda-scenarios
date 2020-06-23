@@ -25,7 +25,7 @@
   
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+    "hideintro": true
   },
   "backend": {
     "imageid": "kubernetes-cluster-running:1.18"
