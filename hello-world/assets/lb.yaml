@@ -18,7 +18,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: webapp1-loadbalancer-deployment
+      app: webapp1-loadbalancer
   replicas: 2
   template:
     metadata:
