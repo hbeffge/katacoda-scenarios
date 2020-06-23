@@ -16,6 +16,9 @@ kind: Deployment
 metadata:
   name: webapp1-loadbalancer-deployment
 spec:
+  selector:
+    matchLabels:
+      app: webapp1-loadbalancer-deployment
   replicas: 2
   template:
     metadata:
