@@ -4,6 +4,9 @@ metadata:
   name: kube-keepalived-vip
   namespace: kube-system
 spec:
+  selector:
+    matchLabels:
+      name: kube-keepalived-vip
   template:
     metadata:
       labels:
