@@ -44,4 +44,4 @@ spec:
 EOF
 ```{{execute}}
 
-Render port: https://[[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com/
+https://[[HOST_SUBDOMAIN]]-[[KATACODA_HOST]].[[KATACODA_DOMAIN]]
