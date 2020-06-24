@@ -4,7 +4,7 @@
 
 `export MY_IP=[[HOST_IP]]`{{execute}}
 
-`kubectl apply -f - <<EOF
+```kubectl apply -f - <<EOF
 apiVersion: v1
 kind: Service
 metadata:
@@ -40,6 +40,6 @@ spec:
         image: katacoda/docker-http-server:latest
         ports:
         - containerPort: 80
-EOF`{{execute}}
+EOF```{{execute}}
 
 Render port: https://[[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com/
