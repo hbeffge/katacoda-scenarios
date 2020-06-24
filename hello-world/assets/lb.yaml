@@ -10,9 +10,6 @@ spec:
   - port: 80
   selector:
     app: webapp1-loadbalancer
-  externalIPs:
-  - [[HOST_IP]]
-  - [[HOST2_IP]]
 ---
 apiVersion: apps/v1
 kind: Deployment
