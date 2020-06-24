@@ -44,4 +44,4 @@ spec:
 EOF
 ```{{execute}}
 
-https://[[HOST_SUBDOMAIN]]-[[KATACODA_HOST]].[[KATACODA_DOMAIN]]
+https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].[[KATACODA_DOMAIN]]
