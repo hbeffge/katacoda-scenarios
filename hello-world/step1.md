@@ -43,5 +43,5 @@ spec:
         - containerPort: 80
 EOF
 ```{{execute}}
-</pre>
+
 Render port: https://[[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com/
