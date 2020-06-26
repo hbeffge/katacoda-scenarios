@@ -28,6 +28,6 @@
     "hideintro": true
   },
   "backend": {
-    "imageid": "kubernetes-cluster-running:1.14"
+    "imageid": "kubernetes-cluster-running:1.17"
   }
 }
