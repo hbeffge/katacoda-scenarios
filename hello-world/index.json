@@ -11,6 +11,7 @@
     "assets": {
       "host01": [
           {"file": "cloudprov.yaml", "target": "/root/"},
+          {"file": "np.yaml", "target": "/root/"},
           {"file": "lb.yaml", "target": "/root/"}
       ]
     },
