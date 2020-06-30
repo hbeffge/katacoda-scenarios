@@ -1,4 +1,8 @@
+`watch kubectl get pods -A`{{execute HOST1}}
+
 `kubeadm join --discovery-token-unsafe-skip-ca-verification --token=96771a.f608976060d16396 [[HOST_IP]]:6443`{{execute HOST2}}
+
+`watch kubectl get nodes`{{execute HOST1}}
 
 `kubectl patch deployment -n kube-system katacoda-cloud-provider --type json --patch '[	{		"op" : "replace" ,		"path" : "/spec/template/spec/containers/0/env/2/value" ,		"value" : "[[HOST_IP]]"	}]'`{{execute}}
 
