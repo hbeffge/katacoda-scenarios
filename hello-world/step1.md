@@ -5,8 +5,7 @@
 `watch kubectl get nodes`{{execute HOST1}}
 
 ```
-export MY_IP=[[HOST_IP]]
-sed -i s/HOSTIP/$MY_IP/g /root/katacoda-cloud-provider.yaml
+sed -i s/HOSTIP/[[HOST_IP]]/g /root/katacoda-cloud-provider.yaml
 kubectl apply -f /root/katacoda-cloud-provider.yaml
 ```{{execute HOST1}}
 
