@@ -4,11 +4,13 @@
 
 `watch kubectl get nodes`{{execute HOST1}}
 
-`kubectl patch deployment -n kube-system katacoda-cloud-provider --type json --patch '[	{		"op" : "replace" ,		"path" : "/spec/template/spec/containers/0/env/2/value" ,		"value" : "[[HOST_IP]]"	}]'`{{execute}}
+```
+export MY_IP=[[HOST_IP]]
+sed -i s/HOSTIP/$MY_IP/g /root/katacoda-cloud-provider.yaml
+kubectl apply -f /root/katacoda-cloud-provider.yaml
+```{{execute HOST1}}
 
 `kubectl apply -f cloudprov.yaml`{{execute}}
-
-`export MY_IP=[[HOST_IP]]`{{execute}}
 
 ```
 kubectl apply -f - <<EOF
