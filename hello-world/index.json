@@ -17,7 +17,8 @@
       ]
     },
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "code": "start.sh"
     },
     "finish": {
       "text": "finish.md"
@@ -29,6 +30,6 @@
     "hideintro": true
   },
   "backend": {
-    "imageid": "kubernetes-cluster-running:1.18"
+    "imageid": "kubernetes-cluster:1.18"
   }
 }
